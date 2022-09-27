@@ -8,7 +8,7 @@ const App = () => {
     <div>
       <header className="header u-margin-bottom-big">
         <div className="header__text-box">
-          <h1 class="heading-primary">
+          <h1 className="heading-primary">
             <span className="heading-primary--main">Isla</span>
             <span className="heading-primary--sub">Obscura</span>
           </h1>

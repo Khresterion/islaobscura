@@ -4,14 +4,11 @@ import { TextField } from "./TextField";
 import * as Yup from "yup";
 import { useHistory } from "react-router-dom";
 
-// TROUVER COMMENT REDIRIGER VERS LA PAGE LIEU DESC
-
 export const Home = () => {
   // stockage des valeurs de la desc apres clique dans local storage
-  let setVal = async (values) => {
-    await obscuraAxios.put("api/getDescription", values).then((res) => {
+  let setVal = (values) => {
+      obscuraAxios.put("api/getDescription", values).then((res) => {
       let desc = res.data;
-      // faire un check au back si input == code
       let descStringified = JSON.stringify(desc);
       localStorage.setItem("descriptionValues", descStringified);
       location.reload();
