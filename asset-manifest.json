@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/islaobscura/static/css/main.ac023ac1.css",
+    "main.js": "/islaobscura/static/js/main.9c7b0628.js",
+    "index.html": "/islaobscura/index.html",
+    "main.ac023ac1.css.map": "/islaobscura/static/css/main.ac023ac1.css.map",
+    "main.9c7b0628.js.map": "/islaobscura/static/js/main.9c7b0628.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ac023ac1.css",
+    "static/js/main.9c7b0628.js"
+  ]
+}
